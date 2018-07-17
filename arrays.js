@@ -14,4 +14,6 @@ function destructivelyAddElementToEndOfArray(chocolateBars, pizza){
   chocolateBars.push(pizza);
   return chocolateBars;
 }
- 
+function accessElementInArray (array, index) {
+  return array[index]; 
+}
